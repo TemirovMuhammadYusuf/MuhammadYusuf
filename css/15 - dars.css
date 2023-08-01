@@ -1,0 +1,42 @@
+.box{
+    background-color: #F2F2F2;
+    color: #F2F2F2;
+    width: 100vw;
+    height: 100vh;
+}
+.img1{
+    width: 20vw;
+    margin-left: 200px;
+    margin-top: 10px;    
+}
+.img2{
+    display: flex;
+    width: 20vw;
+    margin-top: -5px;
+    margin-left: 35%;
+}
+.img3{
+    display: flex;
+    width: 20vw;
+    margin-left: 55%;
+    margin-top: -680px;
+}
+body{
+    margin: 0;
+}
+.box2{
+    background-color: blue;
+    color: white;
+    width: 20vw;
+    height: 47.7%;
+    margin-left: 35%;
+    margin-top: -360px;
+}
+.p1{
+    margin-top: 8rem;
+    font-size: 15px;
+}
+.b1{
+    font-size: 30px;
+    text-align: center;
+}

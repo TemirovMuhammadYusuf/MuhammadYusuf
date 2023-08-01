@@ -1,0 +1,51 @@
+.box{
+    width: 375px;
+    background-color: red;
+    height: 200px;
+    font-size: 20px;
+}
+.p{
+    color: white;
+}
+@media only screen and (max-width: 1200px){
+    .box{
+        font-size: 15px;
+        background-color: black;
+        color: red;
+    }
+    .p{
+        color: blue;
+    }
+}
+@media only screen and (max-width: 992px){
+    .box{
+        font-size: 30px;
+        background-color: blue;
+    }
+    .p{
+        color: black
+        ;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .box{
+        font-size: 20px;
+        background-color: yellow;
+        color: red;
+    }
+    .p{
+        font-size: 40px;
+        color: burlywood;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .box{
+        font-size: 10px;
+        background-color: green;
+        color: bisque;
+    }
+    .p{
+        font-size: 40px;
+        color: brown;
+    }
+}

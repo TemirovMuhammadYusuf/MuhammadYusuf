@@ -1,0 +1,411 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header {
+    width: 100%;
+    padding: 0 15vw;
+    background-color: #532ee7;
+    height: 160vh;
+}
+.zzzz {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    animation-name: anim6;
+    animation-duration: 1s;
+}
+.xxxx {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #fff;
+    animation-name: anim6;
+    animation-duration: 2s;
+}
+.divbir {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.divbir div {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    color: #fff;
+}
+.divikki {
+    display: flex;
+    width: 100%;
+    margin: 100px auto 0;
+    height: 700px;
+    animation-timing-function: ease;
+    animation-duration: 1.5s;
+    animation-name: anim2;
+}
+.headerlist-left img {
+    margin-top: 50px;
+    margin: 50px 0 0 30px;
+    width: 90%;
+    height: 100%;
+    box-shadow: 6px -10px 25px 1px #949090;
+    object-fit: cover;
+
+}
+.headerlist-left {
+    background-color: #fff;
+
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-name: anim1;
+
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+}
+.headerlist-right {
+    padding: 20px;
+    background-color: #fff;
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-name: anim2;
+}
+.headerlist-right h1 {
+    margin-top: 40%;
+    font-size: 2.6rem;
+    padding-bottom: 1.5rem;
+    animation-timing-function: ease;
+    animation-duration: 2.5s;
+    animation-name: anim3;
+}
+.headerlist-right p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    animation-timing-function: ease;
+    animation-duration: 2.5s;
+    animation-name: anim5;
+}
+.btn {
+    padding: 20px 50px;
+    display: block;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+.header-btn {
+    background-color: #ecb203;
+    color: #fff;
+    margin-top: 20px;
+    animation-timing-function: ease;
+    animation-duration: 2.5s;
+    animation-name: anim4;
+}
+.header-bottom {
+    width: 100%;
+    margin: 80px auto 0;
+    display: flex;
+    justify-content: space-around;
+    animation-name: anim6;
+    animation-duration: 2s;
+}
+.headerbottom-list {
+    color: #fff;
+    padding-top: 20px;
+    width: 23%;
+    height: 340px;
+    background-color: #ecb203;
+    text-align: center;
+}
+.headerbottom-list div img {
+    padding: 20px;
+    width: 50%;
+    animation-name: anim7;
+    animation-duration: 3s;
+}
+.headerbottom-list h1 {
+    padding: 10px;
+    font-size: 20px;
+}
+.headerbottom-list p {
+    line-height: 30px;
+}
+.headerbottom-list span {
+    font-size: 1.6rem;
+    margin: 10px;
+    display: inline-block;
+    border-bottom: 2px solid #FFF;
+}
+@keyframes anim1 {
+    0% {
+        opacity: 0;
+        transform: translatey(-400px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatey(0);
+    }
+}
+@keyframes anim2 {
+    0% {
+        opacity: 0;
+        transform: translatey(200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatey(0);
+    }
+}
+@keyframes anim3 {
+    0% {
+        opacity: 0;
+        transform: translatex(200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+@keyframes anim4 {
+    0% {
+        opacity: 0;
+        transform: translatex(300px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+@keyframes anim5 {
+    0% {
+        opacity: 0;
+        transform: translatex(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+@keyframes anim6 {
+    0% {
+        opacity: 0;
+        transform: translatey(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatey(0);
+    }
+}
+@keyframes anim7 {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+.nav1 {
+    width: 100%;
+    height: 80vh;
+}
+.nav1-list {
+    display: flex;
+    width: 60%;
+    margin: 25% auto;
+}
+.nav1 div div {
+    padding-left: 40px;
+    width: 40%;
+    animation-name: anim8;
+    animation-duration: 2s;
+}
+.nav1 div div h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.nav1 div div p {
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+}
+@keyframes anim8 {
+    0% {
+        opacity: 0;
+        transform: translatex(-400px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+.nav2 {
+    background-color: #532ee7;
+    width: 100%;
+    height: 170vh;
+}
+.nav2-head {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 70px;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: #FFF;
+    animation-name: anim8;
+    animation-duration: 1s;
+}
+.nav2-head h1 {
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+.nav2-list {
+    display: flex;
+    margin: 100px auto;
+    width: 80%;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.nav2-list>div:hover {
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+.nav2-list>div {
+    width: 22%;
+    height: 450px;
+    margin: 15px;
+    animation-name: anim10;
+    animation-duration: 1s;
+}
+.nav2-list div div {
+    background-color: #fff;
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.nav2list1 img {
+    width: 100%;
+    height: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+@keyframes anim10 {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.nav3 {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffb902;
+    display: flex;
+}
+.nav3-left {
+    width: 50%;
+    height: 100%;
+    animation-name: anim11;
+    animation-duration: 1s;
+}
+.nav3-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav3-right {
+    color: #fff;
+    width: 50%;
+    height: 100%;
+    animation-name: anim10;
+    animation-duration: 1s;
+}
+.nav3-right h1 {
+    font-size: 2.6rem;
+    margin-top: 200px;
+    width: 60%;
+}
+.nav3-right p {
+    padding-top: 30px;
+    font-size: 1.5rem;
+}
+.nav3-btn {
+    margin-top: 30px;
+    background-color: #ffb902;
+    color: #fff;
+    border: 1px solid #fff;
+}
+@keyframes anim11 {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+        transform: translatex(-400px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translatex(0);
+    }
+}
+.nav4 {
+    width: 100%;
+    height: 100vh;
+}
+.nav4-list {
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    width: 75%;
+    height: 70%;
+}
+.nlist-left {
+    width: 50%;
+    animation-name: anim1;
+    animation-duration: 2s;
+}
+.nlist-left p {
+    font-size: 1.5rem;
+}
+.nlist-left h1 {
+    padding-top: 50px;
+    font-size: 3rem;
+    width: 80%;
+}
+.nlist-right {
+    width: 50%;
+    animation-name: anim3;
+    animation-duration: 2s;
+}
+.nlist-right img {
+    width: 100%;
+}
+.nav4-company {
+    animation-name: anim6;
+    animation-duration: 2s;
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+.nav4-company img {
+    width: 15%;
+    margin: 0 auto;
+}

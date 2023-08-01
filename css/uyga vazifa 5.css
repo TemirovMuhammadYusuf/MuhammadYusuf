@@ -1,0 +1,37 @@
+.p1{
+    font-size: 70px;
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-right: 950px;
+}
+.p2{
+    font-size: 20px;
+    margin-right: 850px;
+    margin-left: 150px;
+    margin-top: -50px;
+}
+.img1{
+    width: 650px;
+    height: 500px;
+    margin-left: 40%;
+    margin-top: -500px;
+}
+.img2{
+    margin-left: 400px;
+    margin-top: -500px;
+    display: flex;
+    width: 130px;
+}
+a{
+    color: black;
+    font-size: 17px;
+    display: flex;
+    margin-top: 360px;
+    margin-left: 150px;
+}
+h1{
+    color: #F2F2F2;
+    margin-left: 850px;
+    font-size: 250px;
+    margin-top: -150px;
+}

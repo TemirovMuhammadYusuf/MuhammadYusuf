@@ -1,0 +1,193 @@
+Axmed, [6/15/2023 4:14 PM]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/uyga vazif1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="../../bootstrap-5.2.3-dist/css/bootstrap.min.css">
+</head>
+<body>
+</html>
+<header>
+
+    <div>
+        <a href="#" class="text-dark">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</header>
+<nav>
+    <div>
+        <h1>Psychology specialist Dr. Sara Dowson</h1>
+        <p>Mollis aliquam ut porttitor leo a diam. Ac tortor vitae purus faucibus ornare. Sapien faucibus et
+            molestie ac feugiat. Mauris in aliquam sem fringilla ut morbi tincidunt augue interdum.</p>
+        <form>
+            <input type="email" required placeholder="your email">
+            <input type="submit" required class="bg-danger">
+        </form>
+    </div>
+</nav>
+<section class="container section1">
+    <div class="row ffff">
+        <div class="col dddd">
+            <img src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/d7da67324cec5ce5a2e9123a/1491171.png"
+                alt="">
+            <h3>Relationship Issues</h3>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+
+            <a href="#">apportment</a>
+        </div>
+        <div class="col bg-danger dddd iiii">
+            <img src="../img/img.jpg" alt="" class="bg-danger">
+            <h3>Relationship Issues</h3>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+
+            <a href="#">apportment</a>
+        </div>
+        <div class="col dddd">
+            <img src="../img/imgg.jpg" alt="">
+            <h3>Relationship Issues</h3>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+
+            <a href="#">apportment</a>
+        </div>
+    </div>
+</section>
+<section class="section2">
+    <div class="section2-left">
+        <h1>Our Clinic Expert Psychologist from New York</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do mod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+    </div>
+    <div class="section2-right">
+        <div>
+            <h3>Psychologist Issues</h3>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+        <div>
+            <h3>Psychologist Issues</h3>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+    </div>
+</section>   
+</body>
+
+Axmed, [6/15/2023 4:14 PM]
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div {
+    font-size: 2rem;
+}
+nav {
+    width: 100%;
+    height: 120vh;
+    background-image: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/2f6015003a5d56c487a4a3b3/pexels-photo-4101143.jpeg");
+}
+nav div {
+    width: 60%;
+    height: 100%;
+    margin: 0 20%;
+}
+nav div h1 {
+    font-size: 4rem;
+    width: 65%;
+    padding-top: 180px;
+    color: #fff;
+}
+nav div p {
+    padding: 30px 0 ;
+    color: #fff;
+    font-size: 1.5rem;
+}
+nav div form {
+    display: flex;
+}
+nav div form input {
+    border: none;
+    padding: 15px 40px;
+}
+.section1 {
+    width: auto;
+    height: 75vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.ffff {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.dddd {
+    text-align: center;
+    margin: 100px 0;
+    width: 15%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dddd img {
+  margin-top: 50px;
+  width: 30%;
+  height: 25%;
+  
+}
+.iiii {
+    background-color: red;
+}
+.dddd h3 {
+    padding: 20px 0;
+
+}
+.dddd a{
+    text-decoration:
+     none;
+    color: #333;
+}
+.dddd a:hover{
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+}
+.section2 {
+    background-color: #f2f2f2;
+    width: auto;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around
+}
+.section2-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+}
+.section2-left p {
+    color: orange;
+    font-size: 1.5rem;
+}
+.section2-left h1 {
+    font-size: bolder;
+}
+.section2-right {
+    padding-top: 50px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

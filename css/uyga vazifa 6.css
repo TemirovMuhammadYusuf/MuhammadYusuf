@@ -1,0 +1,33 @@
+.img1{
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 200px;
+    height: 270px;
+}
+.img2{
+    width: 250px;
+    height: 270px;
+}
+.p1{
+    font-size: 40px;
+    margin-left: 700px;
+    margin-top: -240px;
+    margin-right: 200px;
+}
+.p2{
+    font-size: 40px;
+    margin-left: 800px;
+    margin-top: -40px;
+}
+.p3{
+    margin-left: 690px;
+    margin-right: 300px;
+    font-size: 20px;
+    margin-top: -250px;
+}
+a{
+    color: black;   
+    display: flex;
+    margin-top: 250px;
+    margin-left: 1100px;
+}

@@ -1,0 +1,60 @@
+.main {
+    background-color: #F1F9F7;
+    display:  flex;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    width: 800px;
+    height: 450px;
+    margin-top:5rem ;
+    padding-bottom: 5rem;
+
+}
+.col {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+
+}
+.col-1 {
+    padding-left: 1.5rem;
+    padding-top: 5rem;
+
+}
+.about_us {
+    letter-spacing: 2px;
+    font-family:  monospace;
+    font-size: 18px;
+    opacity: .5;
+}
+.p-2 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+    
+}
+.p-3 {
+    font-size: 20px;
+    padding-left: 1.5rem;
+
+}
+.col-1 button {
+    background-color: #2E937A;
+    color: white;
+    border: none;
+    padding: .8rem 2.7rem;
+    border-radius: 10px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.col-2  button:hover{
+    background-color: black;
+}
+.col-2 {
+    background-color: #C8E8E0;
+    background-image:https:https://images01.nicepage.com/c461c07a441a5d220e8feb1a/df9bb7634eb05bc6aa5d259f/cv-min.png;
+    background-size: contain;
+}

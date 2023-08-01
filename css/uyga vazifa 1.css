@@ -1,0 +1,21 @@
+img {
+	width: 35%;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+p {
+	margin-left: 800px;
+	margin-top: -360px;
+	font-size: 35px;
+}
+h1 {
+	margin-left: 850px;
+	font-size: 75px;
+	margin-top: -30px;
+	margin-bottom: 10px;
+}
+a{
+	color: black;
+	margin-left: 960px;
+	font-size: 20px;
+}

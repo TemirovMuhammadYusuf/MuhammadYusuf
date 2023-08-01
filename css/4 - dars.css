@@ -1,0 +1,15 @@
+.nav{
+	background-color: red;
+	width: 50%;
+	height: 400px;
+	position: relative;
+	left: 20%;
+}
+.urls{
+	background-color: yellow;
+	width: 50%;
+	height: 50%;
+	left: 20%;
+	position: absolute;
+	top: 50px;
+}

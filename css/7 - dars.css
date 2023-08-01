@@ -1,0 +1,10 @@
+.box{
+	width: 400px;
+	height: 200px;
+	background-color: blanchedalmond;
+	overflow-x: visible;
+	overflow-y: hidden;
+}
+.box h1{
+	width: 200px;
+}
